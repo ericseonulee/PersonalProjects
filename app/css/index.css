@@ -1,0 +1,82 @@
+﻿body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+#login_wrapper {
+    opacity: .99;
+    max-width: 480px;
+    height: 100vh;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+/*#secondary_wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: rgba(35, 31, 32, .9);
+}*/
+
+#loginButton {
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    width: 80%;
+    text-align: center;
+    background-color: #4d4d4f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+#signup {
+    cursor: pointer;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    color: #21c2fe;
+    display: inline-block;
+}
+
+#signUpButton {
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    width: 80%;
+    text-align: center;
+    background-color: #6190e3;
+    color: #4d4d4f;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.formWrapper {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+    .formWrapper label {
+        font-weight: bold;
+        color: #4d4d4f;
+        font-size: 14px;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+.changeForm {
+    font-size: 13px;
+    color: #21c2fe;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 40px;
+}
