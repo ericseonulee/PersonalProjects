@@ -10,20 +10,23 @@
 </head>
 <body>
     <div id="login_wrapper">
-        <div class="fullForm">
-            <div class="formWrapper">
-                <form id="loginForm" method="post" action="/app/php/login_check.php">
-                    <input type="hidden" name="actionpost" value="login" />
-                    <input type="text" id="email" name="email" class="" />
-                    <label for="email" class="active">Email</label>
+        <div id="secondary_wrapper">
+            <div class="fullForm">
+                <div class="formWrapper">
+                    <form id="loginForm" method="post" action="/app/php/login_check.php">
+                        <input type="hidden" name="actionpost" value="login" />
+                        <input type="text" id="email" name="email" class="" />
+                        <label for="email" class="active">Email</label>
 
-                    <input id="password" type="password" name="password" class="" />
-                    <label for="password" class="active">Password</label>
+                        <input id="password" type="password" name="password" class="" />
+                        <label for="password" class="active">Password</label>
 
-                    <div class="changeForm" data-action="FORGOT">Forgot Your Password?</div>
-                    <div id="loginButton" typeof="submit">Log In</div>
-                </form>
-                <div id="signup" onclick="location.href='/app/html/signUp.html'">Sign Up</div>                </div>
+                        <div class="changeForm" data-action="FORGOT">Forgot Your Password?</div>
+                        <div id="loginButton" typeof="submit">Log In</div>
+                    </form>
+                    <div id="signup" onclick="location.href='/app/html/signUp.html'">Sign Up</div>
+                </div>
+            </div>
         </div>
     </div>
 
